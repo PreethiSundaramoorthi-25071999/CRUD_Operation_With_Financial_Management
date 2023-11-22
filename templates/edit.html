@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" value="{{datum.Name}}"><br><br>       
+
+        <label for="Fund_Code">Fund_Code:</label>
+        <input type="number" name="Fund_Code" value="{{datum.Fund_Code}}"><br><br>
+
+        <label for="Invested_Amount">Invested_Amount:</label>
+        <input type="number" name="Invested_Amount" value="{{datum.Invested_Amount}}"><br><br> 
+        
+        <label for="Unit_Held">Unit_Held:</label>
+        <input type="number" name="Unit_Held" value="{{datum.Unit_Held}}"><br><br>
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
